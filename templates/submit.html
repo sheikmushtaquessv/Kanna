@@ -1,0 +1,16 @@
+<!-- homepage.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NaukriPage</title>
+</head>
+<body>
+    <h1>Welcome to the Naukri Page</h1>
+    <form action="{% url 'Naukri' %}" method="post">
+        {% csrf_token %}
+        <button type="submit">Click on Naukri</button>
+        <!-- <button onclick="//webscraper.io/test-sites/e-commerce/allinone/computers/tablets">Open File</button> -->
+    </form>
+</body>
+</html>
